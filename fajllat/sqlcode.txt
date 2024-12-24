@@ -1,0 +1,13 @@
+1. CREATE DATABASE emri_databazes // perdoret per krijimin e nje database
+1.ALTER TABLE emrin_tabeles ADD emri_kolones tipi(length)// perdoret per te shtuar nje kolon brenda tabeles.
+
+2.ALTER TABLE emrin_tabeles ADD emri_kolones tipi(length)// AFTER emri_kolones// perdoret per te shtuar nje kolon pas nje kolone tjeter ne tabele.
+
+3.ALTER TABLE emrin_tabeles DROP COLUMN emri_kolones//perdoret per te fshire nje kolon brenda tabeles.
+
+4.SELECT *FROM emrin_tabeles//perdoret per te selektuar te gjitha rekordet e tabeles.
+
+5.SELECT * FROM emrin_tabeles// WHWRW ID=2//perdoret per te selektuar te gjitha rekordet qe gjenden ne rekordet me id 2.
+
+6.SELECT * FROM emrin_tabeles OREDER BY emrin_kolones//perdoret per te sortuat rekordet e kolones ne baze te tipit te te dhenave te kolonesnese eshte numer sortohet nga numri me i vogli te numri me i madh
+,nese eshte text nga shkronja Z.Nese is htohet fjala DESC ne fund ndodh reverse. 
